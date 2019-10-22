@@ -1,0 +1,23 @@
+name: ItemRename
+version: 1.0
+api-version: 1.14
+main: com.gmail.michalc.jt.itemrename.Main
+author: michalc
+prefix: ItemRename
+description: ItemRename plugin
+commands:
+   rename:
+      usage: /<command> <name>
+      permission: irename.rename
+      description: Set item name
+   setlore:
+      usage: /<command> <lore>
+      permission: irename.rename
+      description: Set item lore
+   irename:
+      usage: /<command> <help/reload>
+      permission: irename.admin
+      description: Set item lore
+permissions:
+   irename.admin:
+      default: op

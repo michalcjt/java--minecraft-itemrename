@@ -1,0 +1,25 @@
+# author: github.com/michalcjt
+
+# Tag displayed before messages
+tag: "&8[ &6ItemRename &8]&r "
+
+# Message when a command was executed from the console
+commandOnlyForPlayersMessage: "&cOnly player can use this command."
+
+# Message when arguments are not correct
+# wrongNameArgumentsMessage - /rename
+# wrongLoreArgumentsMessage - /setlore
+wrongNameArgumentsMessage: "&7Usage &c/rename <name>"
+wrongLoreArgumentsMessage: "&7Usage &c/setlore <lore>"
+
+# Success rename / setlore
+successMessage: "&7Operation successfull!"
+
+# Message when player do not have any item in hand
+itemIsNullMessage: "&cYou do not have anything in hand."
+
+# No permission message
+permissionMessage: "&cYou do not have permission to perform this command."
+
+# New line character in /setlore command
+newLineChar: ";"
